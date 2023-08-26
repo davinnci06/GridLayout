@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnCount="4"
+    android:rowCount="5">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="LA CALCULADORA ATENEA" />
+
+    <TextView
+        android:id="@+id/n_7"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="7" />
+
+    <TextView
+        android:id="@+id/n_8"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="8" />
+
+    <TextView
+        android:id="@+id/n_9"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:text="9" />
+
+    <TextView
+        android:id="@+id/n_4"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="4" />
+
+    <TextView
+        android:id="@+id/n_5"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/n_6"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/s_por"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_column="3"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:gravity="center"
+        android:text="×" />
+
+    <TextView
+        android:id="@+id/s_div"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:text="÷" />
+
+    <TextView
+        android:id="@+id/n_1"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/n_2"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/n_3"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/s_men"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="3"
+        android:gravity="center"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/pto"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:gravity="center_horizontal"
+        android:text="." />
+
+    <TextView
+        android:id="@+id/n_0"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/s_ig"
+        style="@style/AppTheme.BotonCalculadora.Azul"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:text="=" />
+
+    <TextView
+        android:id="@+id/s_mas"
+        style="@style/AppTheme.BotonCalculadora.Rojo"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:text="+" />
+</GridLayout>
